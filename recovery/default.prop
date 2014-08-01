@@ -1,0 +1,28 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=0
+ro.adb.secure=0
+ro.allow.mock.location=1
+persist.mtk.aee.aed=off
+ro.debuggable=1
+persist.sys.usb.config=adb
+persist.service.acm.enable=0
+persist.service.adb.enable=1
+ro.mount.fs=EXT4
+
+ro.build.id=KTU84Q
+ro.build.version.release=4.4.4
+ro.build.date=Пт авг 01 23:54:08 YEKT 2014
+ro.build.user=twrp
+ro.build.host=twrp
+ro.product.model=Lenovo K910L_43
+ro.product.brand=Lenovo
+ro.product.name=K910L_43
+ro.product.device=K910L_43
+ro.product.board=K910L_43
+ro.build.product=K910L_43
+ro.product.cpu.abi=armeabi-v7a
+ro.product.cpu.abi2=armeabi
+ro.product.manufacturer=Lenovo
+ro.board.platform=msm8974
