@@ -20,7 +20,7 @@ PRODUCT_COPY_FILES += \
 # recovery
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/ueventd.qcom.rc:recovery/root/ueventd.qcom.rc \
-    $(LOCAL_PATH)/recovery/fstab.qcom:recovery/root/etc/fstab.qcom \
+    $(LOCAL_PATH)/recovery/fstab.qcom:recovery/root/fstab.qcom \
     $(LOCAL_PATH)/recovery/init.qcom.usb.rc:recovery/root/init.qcom.usb.rc \
     $(LOCAL_PATH)/recovery/sepolicy:recovery/root/sepolicy \
     $(LOCAL_PATH)/recovery/file_contexts:recovery/root/file_contexts \
@@ -32,7 +32,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/init.qcom.class_core.sh:recovery/root/init.qcom.class_core.sh \
     $(LOCAL_PATH)/recovery/init.qcom.class_main.sh:recovery/root/init.qcom.class_main.sh \
     $(LOCAL_PATH)/recovery/init.qcom.early_boot.sh:recovery/root/init.qcom.early_boot.sh \
-    $(LOCAL_PATH)/recovery/init.qcom.factory.sh:recovery/root/etc/init.qcom.factory.sh \
+    $(LOCAL_PATH)/recovery/init.qcom.factory.sh:recovery/root/init.qcom.factory.sh \
     $(LOCAL_PATH)/recovery/init.usb.rc:recovery/root/init.usb.rc \
     $(LOCAL_PATH)/recovery/init.qcom.ril.sh:recovery/root/init.qcom.ril.sh \
     $(LOCAL_PATH)/recovery/init.qcom.sh:recovery/root/init.qcom.sh \
