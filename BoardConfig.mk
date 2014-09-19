@@ -1,4 +1,3 @@
-# Исправить fstab и разобраться с dtb
 DEVICE_FOLDER := device/lenovo/K910L_43
 USE_CAMERA_STUB := true
 
